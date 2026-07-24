@@ -1,7 +1,13 @@
 aid: cognitive-space
 name: Cognitive Space
-description: Cognitive Space is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cognitive Space is an aerospace software company delivering AI-powered automated
+  satellite operations for constellation and fleet management. Its CNTIENT.Optimize
+  platform automates mission planning, tasking, and multi-ground-station pass
+  scheduling for satellite operators and government agencies, reporting large per-operator
+  time savings, while CNTIENT.Earth delivers satellite Data-as-a-Service. The company
+  integrates with customer systems via APIs and serves clients including Terran Orbital,
+  the Space Development Agency, the Air Force Research Lab, and NOAA. Backed by Techstars.
 url: https://raw.githubusercontent.com/api-evangelist/cognitive-space/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,32 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cognitivespace.com/wp-content/uploads/2023/09/Favicon.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Aerospace
+- Satellite
+- Space
+- Artificial Intelligence
+- Satellite Operations
+- Constellation Management
+- Data as a Service
+- Government
+- Defense
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cognitive-space-domain-security.yml
 - type: Website
   url: https://cognitivespace.com/
+- type: Blog
+  url: https://www.cognitivespace.com/blog/
+- type: PrivacyPolicy
+  url: https://www.cognitivespace.com/privacy-policy/
+- type: Support
+  url: https://www.cognitivespace.com/contact/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
